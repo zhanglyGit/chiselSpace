@@ -15,6 +15,6 @@ class Adder extends Module {
 
 }
 
-object ANDDriver extends App {
-  (new chisel3.stage.ChiselStage).emitVerilog(new Adder, args)
-}
+//object ANDDriver extends App {
+//  (new chisel3.stage.ChiselStage).emitVerilog(new Adder, args)
+//}
